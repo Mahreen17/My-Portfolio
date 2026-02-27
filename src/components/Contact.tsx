@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
 import { Mail, Phone, MapPin, Send, CheckCircle } from 'lucide-react';
 
 const Contact: React.FC = () => {
@@ -19,31 +19,35 @@ const Contact: React.FC = () => {
   };
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
+  e.preventDefault();
+  alert("Contact form coming soon 🚀");
+};
 
-    emailjs
-      .send(
-        'YOUR_SERVICE_ID',
-        'YOUR_TEMPLATE_ID',
-        {
-          from_name: formData.name,
-          from_email: formData.email,
-          subject: formData.subject,
-          message: formData.message,
-        },
-        'YOUR_PUBLIC_KEY'
-      )
-      .then(() => {
-        setIsSubmitted(true);
-        setFormData({ name: '', email: '', subject: '', message: '' });
+    // EmailJS integration (temporarily disabled)
+/*
+emailjs
+  .send(
+    'YOUR_SERVICE_ID',
+    'YOUR_TEMPLATE_ID',
+    {
+      from_name: formData.name,
+      from_email: formData.email,
+      subject: formData.subject,
+      message: formData.message,
+    },
+    'YOUR_PUBLIC_KEY'
+  )
+  .then(() => {
+    setIsSubmitted(true);
+    setFormData({ name: '', email: '', subject: '', message: '' });
 
-        setTimeout(() => setIsSubmitted(false), 3000);
-      })
-      .catch((error) => {
-        alert('Failed to send message. Please try again.');
-        console.error(error);
-      });
-  };
+    setTimeout(() => setIsSubmitted(false), 3000);
+  })
+  .catch((error) => {
+    alert('Failed to send message. Please try again.');
+    console.error(error);
+  });
+*/
 
   return (
     <section
