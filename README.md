@@ -58,6 +58,7 @@ Pandas
 NumPy
 
 📊 Featured Projects
+
 🏠 Smart House Price Predictor
 
 Machine Learning web application that predicts house prices based on property features.
@@ -135,6 +136,7 @@ https://www.linkedin.com/in/mahreen-begum
 💻 GitHub
 
 https://github.com/Mahreen17
+
 ⚙️ Run Locally
 
 Clone the repository
@@ -156,6 +158,7 @@ npm run dev
 The project will run at:
 
 http://localhost:5173
+
 ⭐ Support
 
 If you like this project, please give it a star ⭐ on GitHub.
