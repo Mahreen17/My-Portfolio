@@ -1,149 +1,111 @@
-🌐 Mahreen Begum Portfolio
-<p align="center"> AI & Data Science Student • Machine Learning Enthusiast • Data Analyst </p> <p align="center">
-
-
-
-
-
-
-
-
-</p>
+# 🌐 Mahreen Begum – Developer Portfolio
+<p align="center"> AI & Data Science Student • Machine Learning Enthusiast • Data Analyst </p> <p align="center"> <a href="https://github.com/Mahreen17"><img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github"></a> <a href="https://www.linkedin.com/in/mahreen-begum"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"></a> <a href="mailto:mahreenbegum1723@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail"></a> </p>
 🚀 Live Portfolio
 
 https://my-portfolio-mahreenbegum17.vercel.app/
 
-👩‍💻 About Me
+## 👩‍💻 About Me
 
-Hello! I'm Mahreen Begum, an AI & Data Science student passionate about building intelligent systems and uncovering insights from data.
+I am an AI & Data Science student passionate about Artificial Intelligence, Machine Learning, and Data Analysis.
 
-My focus areas include:
+I enjoy building real-world projects that turn data into actionable insights and developing AI-powered solutions.
+
+## Areas of Interest
 
 🤖 Artificial Intelligence
+
+🧠 Machine Learning
 
 📊 Data Analysis
 
 📈 Data Visualization
 
-🧠 Machine Learning
+💡 AI Applications
 
-🛠 Real-world AI Applications
+## 🛠 Tech Stack
 
-I enjoy turning raw data into meaningful solutions.
+### 💻 Languages
+<p>
+<img src="https://skillicons.dev/icons?i=python,js,ts,r,bash" />
+</p>
 
-🛠 Tech Stack
+### 🤖 AI / Data Science
+<p>
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch" />
+</p>
 
-Languages
+### ⚙️ Frameworks & Tools
+<p>
+<img src="https://skillicons.dev/icons?i=react,vite,tailwind,flask,git,github,vscode" />
+</p>
 
-Python
+### 📊 Data Analysis & Visualization
+<p>
+<img src="https://skillicons.dev/icons?i=anaconda" />
+</p>
+  
+# 📊 Featured Projects
 
-TypeScript
+## 🏠 Smart House Price Predictor
 
-SQL
+Machine Learning web application that predicts house prices based on property details.
 
-Frameworks & Tools
+| **Features** | **Technologies** |
+|------------------|---------------------|
+| - Predicts house prices using ML models | - Python |
+| - Accepts property details (area, rooms, age, location) | - Streamlit |
+| - Interactive UI for instant predictions | - Scikit-learn |
+| - Simple and user-friendly interface | - Pandas |
+|  | - NumPy |
 
-React
+## 🛒 E-Commerce Sales Analysis
 
-Vite
+Data analysis project exploring customer behavior and sales performance.
 
-TailwindCSS
+| **Features** | **Technologies** |
+|---------------|------------------|
+| - Revenue trend analysis | - Python |
+| - Top customer identification | - SQL |
+| - Product performance insights | - Pandas |
+| - Visualized sales patterns | - Data Visualization |
 
-Streamlit
+## 🎧 Spotify Data Visualization
 
-Scikit-learn
+Analysis of Spotify streaming data up to 2023.
 
-Pandas
+| **Features** | **Technologies** |
+|---------------|------------------|
+| - Identify popular artists and songs | - Python |
+| - Analyze music trends | - Pandas |
+| - Visualize streaming patterns | - Data Visualization Libraries |
+| - Explore song features and modes |  |
 
-NumPy
+## 🏆 Achievements
 
-📊 Featured Projects
+Built multiple machine learning projects
 
-🏠 Smart House Price Predictor
+Developed data analysis dashboards
 
-Machine Learning web application that predicts house prices based on property features.
+Created AI-powered applications using Streamlit
 
-Users can input:
+## 📬 Contact
 
-Area
-
-Number of rooms
-
-Age of property
-
-Location
-
-The model instantly predicts an estimated price.
-
-Tech Used
-
-Python
-
-Machine Learning
-
-Streamlit
-
-Scikit-learn
-
-Pandas
-
-🛒 E-Commerce Sales Analysis
-
-A data analysis project using Python and SQL to explore e-commerce sales trends.
-
-Key insights include:
-
-📈 Revenue growth analysis
-
-🏆 Top customers ranking
-
-🛍 Product performance
-
-📊 Sales trend visualization
-
-🎧 Spotify Data Visualization
-
-Data visualization project analyzing Spotify streaming data up to 2023.
-
-Insights include:
-
-🎵 Most streamed songs
-
-🎤 Popular artists
-
-📊 Music trends
-
-🎶 Song features and modes
-
-🏆 Achievements
-
-Built multiple real-world machine learning projects
-
-Developed interactive data analysis dashboards
-
-Created AI applications using Streamlit and Python
-
-📬 Contact Me
-
-📧 Email
-
-mahreenbegum1723@gmail.com
-
-💼 LinkedIn
-
-https://www.linkedin.com/in/mahreen-begum
-
-💻 GitHub
-
+GitHub
 https://github.com/Mahreen17
 
-⚙️ Run Locally
+LinkedIn
+https://www.linkedin.com/in/mahreen-begum
+
+Email
+mahreenbegum1723@gmail.com
+
+## ⚙️ Run Locally
 
 Clone the repository
 
 git clone https://github.com/your-username/portfolio.git
 
-Navigate to project
+Navigate to project folder
 
 cd portfolio
 
@@ -155,10 +117,13 @@ Run the development server
 
 npm run dev
 
-The project will run at:
+Open:
 
 http://localhost:5173
 
-⭐ Support
+## 📈 GitHub Stats
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Mahreen17&show_icons=true&theme=tokyonight"/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mahreen17&layout=compact&theme=tokyonight"/> </p>
 
-If you like this project, please give it a star ⭐ on GitHub.
+## ⭐ Support
+
+If you like this project, consider starring the repository ⭐.
