@@ -121,9 +121,6 @@ Open:
 
 http://localhost:5173
 
-## 📈 GitHub Stats
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Mahreen17&show_icons=true&theme=tokyonight"/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mahreen17&layout=compact&theme=tokyonight"/> </p>
-
 ## ⭐ Support
 
 If you like this project, consider starring the repository ⭐.
