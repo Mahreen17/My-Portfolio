@@ -2,6 +2,39 @@ import { Github, ExternalLink, Star } from 'lucide-react';
 
 const projects = [
   {
+  title: 'ChurnGuard',
+  description:
+    '📊 ChurnGuard is a machine learning dashboard that predicts telecom customer churn using Random Forest. Includes SHAP explainability, batch CSV scoring, retention ROI calculator, prediction history logging, and PDF export reports.',
+  tech: ['Python', 'Machine Learning', 'Streamlit', 'Random Forest'],
+  image:
+    'https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  github: 'https://github.com/Mahreen17/ChurnGuard',
+  demo: 'https://churnguard-customer1721.streamlit.app/',
+  featured: true,
+},
+{
+  title: 'FitHub',
+  description:
+    '💪 FitHub is a real-time fitness assistant powered by OpenCV and MediaPipe. It detects exercises, counts repetitions, analyzes posture accuracy, and provides instant feedback for smarter workouts.',
+  tech: ['Python', 'OpenCV', 'MediaPipe', 'Computer Vision'],
+  image:
+    'https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  github: 'https://github.com/Mahreen17/Fithub',
+  demo: 'https://fithub-r96v.onrender.com/',
+  featured: true,
+},
+{
+  title: 'Iris Flower Classifier',
+  description:
+    '🌸 A modern full-stack machine learning web application that predicts Iris flower species using physical measurements. Demonstrates ML model integration with an interactive and responsive web interface.',
+  tech: ['Python', 'Flask', 'Machine Learning', 'Scikit-learn'],
+  image:
+    'https://images.pexels.com/photos/931177/pexels-photo-931177.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  github: 'https://github.com/Mahreen17/iris-flower-classifier',
+  demo: 'https://iris-flower-classifier.vercel.app/',
+  featured: false,
+  },
+  {
     title: 'House Price Predictor',
     description:
       '🏠 Smart House Price Predictor is a Streamlit-based AI web app that predicts house prices using machine learning. Users enter property details like area, rooms, age, and location to get instant predictions.',
@@ -9,9 +42,39 @@ const projects = [
     image:
       'https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1200',
     github: 'https://github.com/Mahreen17/House_Price_predictor',
-    demo: 'https://housepricepredictor-mahreenbegum1723.streamlit.app/', // add Streamlit link after deployment
+    demo: 'https://housepricepredictor-mahreenbegum1723.streamlit.app/', 
     featured: true,
   },
+  {
+  title: 'Exploratory Data Analysis (EDA) Project',
+  description:
+    '📈 Comprehensive exploratory data analysis project focused on uncovering trends, patterns, correlations, and insights through statistical analysis and visual storytelling using Python libraries.',
+  tech: ['Python', 'Pandas', 'Matplotlib', 'Seaborn'],
+  image:
+    'https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  github: 'https://github.com/Mahreen17/Exploratory-Data-Analysis-EDA-Project',
+  featured: false,
+},
+{
+  title: 'Predictive Modeling Using Machine Learning',
+  description:
+    '🤖 Machine learning project focused on building predictive models using data preprocessing, feature engineering, model training, evaluation metrics, and performance optimization techniques.',
+  tech: ['Python', 'Machine Learning', 'Scikit-learn', 'Data Analysis'],
+  image:
+    'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  github: 'https://github.com/Mahreen17/Predictive-Modeling-Using-Machine-Learning',
+  featured: true,
+},
+{
+  title: 'Data Cleaning & Visualization Project',
+  description:
+    '🧹 End-to-end data cleaning and visualization project involving missing value handling, preprocessing, transformation, and creating insightful visual dashboards for data-driven analysis.',
+  tech: ['Python', 'Pandas', 'Data Visualization', 'Matplotlib'],
+  image:
+    'https://images.pexels.com/photos/577210/pexels-photo-577210.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  github: 'https://github.com/Mahreen17/Data-Cleaning-Visualization-Project',
+  featured: false,
+},
   {
     title: 'E-commerce Sales Analysis',
     description:
@@ -20,7 +83,6 @@ const projects = [
     image:
       'https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1200',
     github: 'https://github.com/Mahreen17/Ecommerce-Analysis_python-sql',
-    demo: '',
     featured: false,
   },
   {
@@ -31,7 +93,6 @@ const projects = [
     image:
       'https://images.pexels.com/photos/1649771/pexels-photo-1649771.jpeg?auto=compress&cs=tinysrgb&w=1200',
     github: 'https://github.com/Mahreen17/Spotify_DataVisualizationUpto2023',
-    demo: '',
     featured: false,
   },
 ] as const;
