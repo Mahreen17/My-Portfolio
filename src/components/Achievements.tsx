@@ -17,71 +17,65 @@ const Achievements: React.FC = () => {
 
   const achievements: Achievement[] = [
     {
-      title: 'British Airways – Data Science Job Simulation',
-      issuer: 'Forage',
-      date: '2025',
-      description:
-        'Hands-on experience solving real airline data problems including customer segmentation, predictive modeling, and insight generation.',
-      certificate:
-        'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/tMjbs76F526fF5v3G/NjynCWzGSaWXQCxSX_tMjbs76F526fF5v3G_8vCWod8Aa5tHBW7eF_1752155123680_completion_certificate.pdf',
-      credentialId: '82zachPX7bHporLph',
-      skills: ['Machine Learning', 'Data Visualization', 'Data Modeling', 'Data Cleaning'],
-    },
-    {
-      title: 'Deloitte Australia – Data Analytics Job Simulation',
-      issuer: 'Forage',
-      date: '2025',
-      description:
-        'Analyzed client datasets, extracted business insights, and created data-driven recommendations similar to real Deloitte consulting projects.',
-      certificate:
-        'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_8vCWod8Aa5tHBW7eF_1751987538817_completion_certificate.pdf',
-      credentialId: 'qB4PtM2MjjypogQde',
-      skills: ['Excel', 'Tableau', 'Data Analysis', 'Data Modeling'],
-    },
-    {
-      title: 'Introduction to Large Language Models',
-      issuer: 'Google',
-      date: '2025',
-      description:
-        'Learned core concepts of Large Language Models including transformers, NLP tasks, and real-world AI applications.',
-      certificate:
-        'https://www.cloudskillsboost.google/public_profiles/cb2d6c95-16d8-4d29-ae85-f583394f757b/badges/16889050',
-      credentialId: '16889050',
-      skills: ['LLMs', 'Deep Learning', 'Neural Networks', 'NLP'],
-    },
-    {
-      title: 'Tata – Data Visualization Job Simulation',
-      issuer: 'Forage',
-      date: '2025',
-      description:
-        'Focused on data cleaning, dashboard creation, and communicating insights for strategic business decisions.',
-      certificate:
-        'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ifobHAoMjQs9s6bKS/MyXvBcppsW2FkNYCX_ifobHAoMjQs9s6bKS_8vCWod8Aa5tHBW7eF_1752151282015_completion_certificate.pdf',
-      credentialId: 'nHbjcG7asiNK43fMe',
-      skills: ['Power BI', 'Tableau', 'Data Analysis', 'Data Modeling'],
-    },
-    {
-      title: 'Responsive Web Design',
-      issuer: 'freeCodeCamp',
-      date: '2025',
-      description:
-        'Covered HTML, CSS, Flexbox, Grid, and accessibility while building fully responsive web layouts.',
-      certificate:
-        'https://freecodecamp.org/certification/Mahreen1723/responsive-web-design',
-      credentialId: 'mahreen1723-rwd',
-      skills: ['HTML', 'CSS', 'JavaScript', 'Tailwind CSS'],
-    },
-    {
-      title: 'Deloitte Australia – Cyber Job Simulation',
-      issuer: 'Forage',
-      date: '2025',
-      description:
-        'Worked on cybersecurity fundamentals including threat identification, risk analysis, and mitigation strategies.',
-      certificate:
-        'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_8vCWod8Aa5tHBW7eF_1752001273620_completion_certificate.pdf',
-      credentialId: 'xhLiQHAesgX9YG4Jd',
-      skills: ['Cybersecurity', 'Risk Management', 'Threat Analysis'],
-    },
+  title: 'Microsoft Applied Skills: Generate Reports with AI Research Agents',
+  issuer: 'Microsoft',
+  date: '2026',
+  description:
+    'Learned to generate intelligent reports using AI research agents and generative AI tools for automated insights and productivity enhancement.',
+  certificate: 'https://learn.microsoft.com/en-us/users/mahreenbegum-4485/credentials/8d4d3cfe225d2ce2?ref=https%3A%2F%2Fwww.linkedin.com%2F',
+  credentialId: '8D4D3CFE225D2CE2',
+  skills: ['Generative AI', 'AI Research Agents', 'Report Automation'],
+},
+{
+  title: 'GenAI in Data Analytics',
+  issuer: 'Meta',
+  date: '2025',
+  description:
+    'Explored the integration of Generative AI in data analytics workflows, including insight generation, automation, and AI-powered analytical techniques.',
+  certificate: 'https://www.coursera.org/account/accomplishments/verify/D7XA86BN7SBV',
+  credentialId: 'D7XA86BN7SBV',
+  skills: ['Generative AI', 'Data Analysis', 'AI Tools'],
+},
+{
+  title: 'Data Analysis Using Python',
+  issuer: 'IBM',
+  date: '2025',
+  description:
+    'Focused on data analysis techniques using Python libraries such as NumPy and Pandas, including data cleaning, visualization, and statistical analysis.',
+  certificate: 'https://www.credly.com/badges/dc1b60c4-0874-4a21-8e87-a962cb51441c/linked_in_profile',
+  credentialId: '',
+  skills: ['Python', 'NumPy', 'Pandas', 'Data Visualization'],
+},
+{
+  title: 'British Airways – Data Science Job Simulation',
+  issuer: 'Forage',
+  date: '2025',
+  description:
+    'Completed practical data science tasks involving customer insights, predictive modeling, and business-focused machine learning solutions.',
+  certificate: 'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/tMjbs76F526fF5v3G/NjynCWzGSaWXQCxSX_tMjbs76F526fF5v3G_8vCWod8Aa5tHBW7eF_1752155123680_completion_certificate.pdf',
+  credentialId: '82zachPX7bHporLph',
+  skills: ['Machine Learning', 'Data Science', 'Predictive Modeling'],
+},
+{
+  title: 'Tata – Data Visualisation: Empowering Business with Effective Insights',
+  issuer: 'Forage',
+  date: '2025',
+  description:
+    'Focused on creating impactful business visualizations, extracting insights from datasets, and presenting data effectively for decision-making.',
+  certificate: 'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ifobHAoMjQs9s6bKS/MyXvBcppsW2FkNYCX_ifobHAoMjQs9s6bKS_8vCWod8Aa5tHBW7eF_1752151282015_completion_certificate.pdf',
+  credentialId: 'nHbjcG7asiNK43fMe',
+  skills: ['Seaborn', 'Matplotlib', 'Data Visualization', 'Business Insights'],
+},
+{
+  title: 'Deloitte Australia – Data Analytics Job Simulation',
+  issuer: 'Deloitte',
+  date: '2025',
+  description:
+    'Worked on real-world analytics tasks involving data interpretation, business problem-solving, dashboard reporting, and analytical thinking.',
+  certificate: 'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_8vCWod8Aa5tHBW7eF_1751987538817_completion_certificate.pdf',
+  credentialId: 'qB4PtM2MjjypogQde',
+  skills: ['Data Analytics', 'Dashboard Reporting', 'Business Analysis'],
+},  
   ];
 
   return (
