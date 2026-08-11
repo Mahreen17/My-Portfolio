@@ -1,126 +1,98 @@
-# 🌐 Mahreen Begum – Developer Portfolio
-<p align="center"> AI & Data Science Student • Machine Learning Enthusiast • Data Analyst </p> <p align="center"> <a href="https://github.com/Mahreen17"><img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github"></a> <a href="https://www.linkedin.com/in/mahreen-begum"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"></a> <a href="mailto:mahreenbegum1723@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail"></a> </p>
-🚀 Live Portfolio
+# Mahreen Begum
 
-https://my-portfolio-mahreenbegum17.vercel.app/
+### Data Analyst | Data Science & Machine Learning Specialist | AI-Driven Solutions
 
-## 👩‍💻 About Me
+I build systems that turn raw data into decisions — from production-grade machine learning pipelines to agentic AI applications that let people query data in natural language. My work spans the full lifecycle: data cleaning and analysis, statistical modeling, predictive systems, model explainability, and deployment of interactive tools that non-technical users can actually use.
 
-I am an AI & Data Science student passionate about Artificial Intelligence, Machine Learning, and Data Analysis.
+[GitHub](https://github.com/Mahreen17) · [Portfolio](https://my-portfolio-mahreenbegum17.vercel.app/)
 
-I enjoy building real-world projects that turn data into actionable insights and developing AI-powered solutions.
+---
 
-## Areas of Interest
+## Landing Page
 
-🤖 Artificial Intelligence
+![Portfolio Landing Page](./portfolio-landing-page.png)
 
-🧠 Machine Learning
+The homepage introduces Mahreen Begum as an AI and Data Science student, with a contact call-to-action and links to GitHub, LinkedIn, and email.
 
-📊 Data Analysis
+---
 
-📈 Data Visualization
+## Featured Projects
 
-💡 AI Applications
+### InsightFlow Data Copilot
 
-## 🛠 Tech Stack
+An AI-powered data assistant that lets users query structured datasets in plain English and receive accurate, grounded answers — no SQL required.
 
-### 💻 Languages
-<p>
-<img src="https://skillicons.dev/icons?i=python,js,ts,r,bash" />
-</p>
+**Tech stack:** `Google Gemini` `LangChain` `SQL Agents` `RAG` `MCP` `SQLite` `Streamlit`
 
-### 🤖 AI / Data Science
-<p>
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch" />
-</p>
+**Why it matters:** Demonstrates a full agentic AI architecture — an LLM reasoning layer paired with retrieval-augmented grounding and tool-calling agents that execute real SQL against a live database. This is the kind of system that makes internal data genuinely self-serve.
 
-### ⚙️ Frameworks & Tools
-<p>
-<img src="https://skillicons.dev/icons?i=react,vite,tailwind,flask,git,github,vscode" />
-</p>
+---
 
-### 📊 Data Analysis & Visualization
-<p>
-<img src="https://skillicons.dev/icons?i=anaconda" />
-</p>
-  
-# 📊 Featured Projects
+### ChurnGuard
 
-## 🏠 Smart House Price Predictor
+An interactive ML dashboard that predicts telecom customer churn, explains why each customer is at risk, and quantifies the financial impact of retention decisions.
 
-Machine Learning web application that predicts house prices based on property details.
+**Tech stack:** `Python` `Scikit-learn` `Random Forest` `SHAP` `Pandas` `Streamlit`
 
-| **Features** | **Technologies** |
-|------------------|---------------------|
-| - Predicts house prices using ML models | - Python |
-| - Accepts property details (area, rooms, age, location) | - Streamlit |
-| - Interactive UI for instant predictions | - Scikit-learn |
-| - Simple and user-friendly interface | - Pandas |
-|  | - NumPy |
+**Why it matters:** Goes beyond a black-box prediction. SHAP-based explainability makes model output interpretable to business stakeholders, batch CSV scoring supports real operational workflows, and the built-in ROI calculator ties predictions directly to revenue impact, closing the loop between data science and business decision-making.
 
-## 🛒 E-Commerce Sales Analysis
+---
 
-Data analysis project exploring customer behavior and sales performance.
+### FitHub
 
-| **Features** | **Technologies** |
-|---------------|------------------|
-| - Revenue trend analysis | - Python |
-| - Top customer identification | - SQL |
-| - Product performance insights | - Pandas |
-| - Visualized sales patterns | - Data Visualization |
+A web-based AI fitness assistant that uses real-time computer vision to track exercise repetitions and evaluate posture as the user moves.
 
-## 🎧 Spotify Data Visualization
+**Tech stack:** `Python` `OpenCV` `MediaPipe` `Flask`
 
-Analysis of Spotify streaming data up to 2023.
+**Why it matters:** Applies pose estimation and computer vision to a live video stream in real time — a harder engineering problem than static image classification, requiring low-latency inference and robust landmark tracking under variable conditions.
 
-| **Features** | **Technologies** |
-|---------------|------------------|
-| - Identify popular artists and songs | - Python |
-| - Analyze music trends | - Pandas |
-| - Visualize streaming patterns | - Data Visualization Libraries |
-| - Explore song features and modes |  |
+---
 
-## 🏆 Achievements
+## Technical Skills
 
-Built multiple machine learning projects
+**Core Languages**
 
-Developed data analysis dashboards
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
 
-Created AI-powered applications using Streamlit
+**ML / AI Frameworks**
 
-## 📬 Contact
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Random Forest](https://img.shields.io/badge/Random%20Forest-2E8B57?style=flat-square)
+![SHAP](https://img.shields.io/badge/SHAP-6A5ACD?style=flat-square)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square)
+![GenAI](https://img.shields.io/badge/Generative%20AI-8E75B2?style=flat-square)
 
-GitHub
-https://github.com/Mahreen17
+**Data Tools**
 
-LinkedIn
-https://www.linkedin.com/in/mahreen-begum
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
 
-Email
-mahreenbegum1723@gmail.com
+**Deployment Platforms**
 
-## ⚙️ Run Locally
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white)
 
-Clone the repository
+**Agents & Orchestration**
 
-git clone https://github.com/your-username/portfolio.git
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square)
+![LangGraph](https://img.shields.io/badge/LangGraph-121212?style=flat-square)
+![MCP](https://img.shields.io/badge/Model%20Context%20Protocol-4B0082?style=flat-square)
+![AI Agents](https://img.shields.io/badge/AI%20Agents-8B0000?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-006400?style=flat-square)
 
-Navigate to project folder
+---
 
-cd portfolio
+## Connect
 
-Install dependencies
+- **GitHub:** [github.com/Mahreen17](https://github.com/Mahreen17)
+- **Portfolio:** [my-portfolio-mahreenbegum17.vercel.app](https://my-portfolio-mahreenbegum17.vercel.app/)
 
-npm install
-
-Run the development server
-
-npm run dev
-
-Open:
-
-http://localhost:5173
-
-## ⭐ Support
-
-If you like this project, consider starring the repository ⭐.
+Open to data science, machine learning, and AI engineering roles and collaborations. Reach out through the portfolio site or GitHub.
