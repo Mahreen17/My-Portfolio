@@ -7,12 +7,13 @@ const Footer: FC = () => {
   };
 
   const quickLinks = ['About', 'Skills', 'Projects', 'Achievements', 'Contact'];
-  const coreSkills = [
+    const coreSkills = [
     'Python',
     'Machine Learning',
-    'Data Analysis',
-    'TensorFlow',
-    'AI Research',
+    'Generative AI',
+    'RAG & AI Agents',
+    'Computer Vision',
+    'Data Analytics',
   ];
 
   return (
