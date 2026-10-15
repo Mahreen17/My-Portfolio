@@ -17,7 +17,7 @@ const CARDS = [
     title: "Goals",
     icon: Target,
     content:
-      "Aspiring to become a leading AI researcher and data scientist, contributing to impactful innovations and making AI accessible for societal benefit.",
+      "Seeking data science, machine learning, and AI engineering roles where I can build production-ready, explainable AI systems that turn data into decisions and make AI genuinely useful for people.",
   },
   {
     title: "Passion",
@@ -49,16 +49,19 @@ function About() {
           {/* Text + stats */}
           <div className="space-y-6">
             <p className="text-gray-300 leading-relaxed">
-              I am a dedicated AI & Data Science student with a passion for
-              uncovering insights from complex datasets and building intelligent
-              systems. My journey is driven by curiosity and real-world problem
-              solving.
+              I'm an AI & Data Science student who builds systems that turn raw
+              data into decisions. My work spans the full lifecycle: data
+              cleaning and analysis, statistical modeling, predictive systems,
+              model explainability, and deploying interactive tools that
+              non-technical users can actually use.
             </p>
 
             <p className="text-gray-300 leading-relaxed">
-              With experience in machine learning, statistical analysis, and
-              data visualization, I enjoy transforming raw data into meaningful
-              narratives that drive decisions.
+              From machine learning pipelines with SHAP explainability and
+              MLflow experiment tracking, to computer vision apps that analyze
+              live video, to agentic AI assistants that let people query data in
+              plain English using RAG, SQL agents and MCP, I focus on building
+              projects that are practical, transparent and deployed live.
             </p>
 
             <div className="grid grid-cols-3 gap-6 pt-8">
