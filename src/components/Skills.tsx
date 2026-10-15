@@ -1,20 +1,109 @@
-const skills = [
-  { name: 'Python', icon: '🐍' },
-  { name: 'Machine Learning', icon: '🤖' },
-  { name: 'Data Analysis', icon: '📊' },
-  { name: 'TensorFlow', icon: '🧠' },
-  { name: 'PyTorch', icon: '🔥' },
-  { name: 'SQL', icon: '🗄️' },
-  { name: 'Pandas', icon: '🐼' },
-  { name: 'NumPy', icon: '🔢' },
-  { name: 'Scikit-learn', icon: '⚙️' },
-  { name: 'Jupyter Notebook', icon: '📓' },
-  { name: 'Data Visualization', icon: '📈' },
-  { name: 'Deep Learning', icon: '🔬' },
-  { name: 'Statistics', icon: '📉' },
-  { name: 'HTML/CSS', icon: '🌐' },
-  { name: 'JavaScript', icon: '⚡' },
-] as const;
+interface SkillCategory {
+  title: string;
+  icon: string;
+  accent: string; // gradient for the icon badge
+  skills: string[];
+}
+
+const skillCategories: SkillCategory[] = [
+  {
+    title: 'Programming Languages',
+    icon: '💻',
+    accent: 'from-pink-500 to-purple-500',
+    skills: ['Python', 'SQL', 'Java', 'C', 'R'],
+  },
+  {
+    title: 'Data Analytics & Visualization',
+    icon: '📊',
+    accent: 'from-purple-500 to-indigo-500',
+    skills: [
+      'Pandas',
+      'NumPy',
+      'Matplotlib',
+      'Seaborn',
+      'Power BI',
+      'Tableau',
+      'Microsoft Excel',
+    ],
+  },
+  {
+    title: 'Machine Learning & Deep Learning',
+    icon: '🤖',
+    accent: 'from-indigo-500 to-blue-500',
+    skills: [
+      'Scikit-learn',
+      'TensorFlow',
+      'Keras',
+      'VGG16',
+      'Random Forest',
+      'SHAP',
+      'Classification',
+      'Regression',
+      'Predictive Modeling',
+    ],
+  },
+  {
+    title: 'Generative AI & Agentic AI',
+    icon: '✨',
+    accent: 'from-pink-500 to-rose-500',
+    skills: [
+      'Google Gemini',
+      'LangChain',
+      'Retrieval-Augmented Generation (RAG)',
+      'AI Agents',
+      'Model Context Protocol (MCP)',
+    ],
+  },
+  {
+    title: 'Data Engineering & Vector Databases',
+    icon: '🗄️',
+    accent: 'from-purple-500 to-pink-500',
+    skills: [
+      'SQLite',
+      'ChromaDB',
+      'Sentence Transformers',
+      'Data Preprocessing',
+      'Feature Engineering',
+    ],
+  },
+  {
+    title: 'Computer Vision',
+    icon: '👁️',
+    accent: 'from-teal-500 to-cyan-500',
+    skills: ['OpenCV', 'MediaPipe', 'Image Classification', 'Pose Estimation'],
+  },
+  {
+    title: 'Web Development & Deployment',
+    icon: '🌐',
+    accent: 'from-orange-500 to-pink-500',
+    skills: ['Flask', 'Streamlit', 'Vercel', 'Render', 'HTML', 'CSS', 'JavaScript'],
+  },
+  {
+    title: 'MLOps & Experiment Tracking',
+    icon: '🔁',
+    accent: 'from-blue-500 to-purple-500',
+    skills: [
+      'MLflow',
+      'DVC',
+      'Model Evaluation',
+      'Experiment Tracking',
+      'Model Versioning',
+    ],
+  },
+  {
+    title: 'Tools & Platforms',
+    icon: '🛠️',
+    accent: 'from-pink-500 to-orange-500',
+    skills: [
+      'Jupyter Notebook',
+      'Git',
+      'GitHub',
+      'VS Code',
+      'LaTeX',
+      'Microsoft Office',
+    ],
+  },
+];
 
 const Skills = () => {
   return (
@@ -28,64 +117,48 @@ const Skills = () => {
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
             Technical{' '}
             <span className="bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
-              Skills
+              Stack
             </span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-pink-500 to-purple-500 mx-auto mb-6" />
           <p className="text-sm sm:text-base md:text-lg text-gray-300 max-w-2xl mx-auto">
-            A comprehensive toolkit spanning machine learning, data analysis,
-            and software development
+            A full-lifecycle toolkit spanning data analytics, machine learning,
+            generative AI, computer vision and deployment
           </p>
         </div>
 
-        {/* Skills Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
-          {skills.map((skill, index) => (
+        {/* Category Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+          {skillCategories.map(({ title, icon, accent, skills }) => (
             <div
-              key={skill.name}
-              className="bg-gradient-to-br from-purple-900/50 to-pink-900/50 backdrop-blur-sm p-4 sm:p-6 rounded-xl sm:rounded-2xl border border-purple-600/30 hover:border-pink-500/50 transition-all duration-300 hover:scale-105 hover:shadow-xl group"
-              style={{ animationDelay: `${index * 100}ms` }}
+              key={title}
+              className="group bg-gradient-to-br from-purple-900/50 to-pink-900/50 backdrop-blur-sm p-5 sm:p-6 rounded-2xl border border-purple-600/30 hover:border-pink-500/50 transition-all duration-300 hover:shadow-xl"
             >
-              <div className="flex items-center space-x-4">
-                <div className="text-2xl sm:text-3xl group-hover:scale-110 transition-transform duration-300">
-                  {skill.icon}
+              {/* Card heading */}
+              <div className="flex items-center gap-3 mb-4">
+                <div
+                  className={`w-10 h-10 shrink-0 bg-gradient-to-br ${accent} rounded-full flex items-center justify-center text-lg group-hover:scale-110 transition-transform duration-300`}
+                >
+                  <span aria-hidden="true">{icon}</span>
                 </div>
-                <h3 className="text-sm sm:text-base md:text-lg font-semibold text-white">
-                  {skill.name}
+                <h3 className="text-base sm:text-lg font-semibold text-white leading-snug">
+                  {title}
                 </h3>
+              </div>
+
+              {/* Skill tags */}
+              <div className="flex flex-wrap gap-2">
+                {skills.map((skill) => (
+                  <span
+                    key={skill}
+                    className="px-3 py-1 bg-gradient-to-r from-purple-600/30 to-pink-600/30 text-purple-100 rounded-full text-xs sm:text-sm border border-purple-500/30 hover:border-pink-400/60 hover:text-white transition-colors duration-200"
+                  >
+                    {skill}
+                  </span>
+                ))}
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Skill Categories */}
-        <div className="mt-12 sm:mt-16 grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 text-center">
-          <div>
-            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-pink-400 mb-4">
-              Data Science
-            </h3>
-            <p className="text-sm sm:text-base text-gray-300">
-              Statistical analysis, data mining, and predictive modeling
-            </p>
-          </div>
-
-          <div>
-            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-purple-400 mb-4">
-              Machine Learning
-            </h3>
-            <p className="text-sm sm:text-base text-gray-300">
-              Supervised, unsupervised learning, and deep neural networks
-            </p>
-          </div>
-
-          <div>
-            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-indigo-400 mb-4">
-              Development
-            </h3>
-            <p className="text-sm sm:text-base text-gray-300">
-              Full-stack development and data visualization tools
-            </p>
-          </div>
         </div>
       </div>
     </section>
