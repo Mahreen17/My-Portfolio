@@ -1,9 +1,9 @@
 import { BookOpen, Target, Heart } from "lucide-react";
 
 const STATS = [
-  { value: "5+", label: "Projects", color: "text-pink-400" },
-  { value: "15+", label: "Skills", color: "text-purple-400" },
-  { value: "10+", label: "Certifications", color: "text-indigo-400" },
+  { value: "12+", label: "Projects", color: "text-pink-400" },
+  { value: "50+", label: "Skills", color: "text-purple-400" },
+  { value: "6", label: "Certifications", color: "text-indigo-400" },
 ];
 
 const CARDS = [
